@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ultimate_tech",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ultimate Tech",
+  "description": "Huge work-in-progress Minecraft mod for Fabric that includes loads of technology, machines, and science.",
   "authors": [
-    "Me!"
+    "HyperbolicHippo"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/ultimate_tech/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "hyperbolichippo.ultimatetech.UltimateTechMod"
+    ],
+    "client": [
+      "hyperbolichippo.ultimatetech.UltimateTechClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ultimate_tech.mixins.json"
   ],
 
   "depends": {
