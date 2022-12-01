@@ -1,5 +1,6 @@
 package hyperbolichippo.ultimatetech;
 
+import hyperbolichippo.ultimatetech.registry.ModBlocks;
 import hyperbolichippo.ultimatetech.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -22,5 +23,6 @@ public class UltimateTechMod implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
 
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
