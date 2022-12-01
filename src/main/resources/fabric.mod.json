@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "ultimate_tech",
+  "id": "ultimatetech",
   "version": "${version}",
 
   "name": "Ultimate Tech",
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/ultimate_tech/icon.png",
+  "icon": "assets/ultimatetech/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -26,7 +26,7 @@
     ]
   },
   "mixins": [
-    "ultimate_tech.mixins.json"
+    "ultimatetech.mixins.json"
   ],
 
   "depends": {
