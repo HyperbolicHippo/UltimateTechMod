@@ -18,6 +18,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        UltimateTechMod.LOGGER.info("Registering mod items...");
+        UltimateTechMod.LOGGER.debug("Registering mod items...");
     }
 }
