@@ -8,10 +8,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item TIN_INGOT = registerItem("tin_ingot",
-            new Item(new FabricItemSettings().group(UltimateTechMod.ITEM_GROUP)));
+            new Item(new FabricItemSettings().group(UltimateTechMod.MOD_ITEM_GROUP)));
 
     public static final Item WIRE_CUTTERS = registerItem("wire_cutters",
-            new Item(new FabricItemSettings().group(UltimateTechMod.ITEM_GROUP).maxCount(1)));
+            new Item(new FabricItemSettings().group(UltimateTechMod.MOD_ITEM_GROUP).maxCount(1)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(UltimateTechMod.MOD_ID, name), item);

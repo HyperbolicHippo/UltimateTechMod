@@ -1,8 +1,16 @@
 {
-  "itemGroup.ultimatetech.item_group": "Ultimate Tech",
+  "itemGroup.ultimatetech.mod_item_group": "Ultimate Tech",
+  "itemGroup.ultimatetech.element_item_group": "Ultimate Tech: Elements",
 
   "item.ultimatetech.tin_ingot": "Tin Ingot",
   "item.ultimatetech.wire_cutters": "Wire Cutters",
 
-  "block.ultimatetech.tin_block": "Block of Tin"
+  "block.ultimatetech.tin_block": "Block of Tin",
+  "block.ultimatetech.pulverizer": "Pulverizer",
+  "block.ultimatetech.hydrogen_atom": "Hydrogen Atom",
+  "block.ultimatetech.helium_atom": "Helium Atom",
+  "block.ultimatetech.lithium_atom": "Lithium Atom",
+  "block.ultimatetech.beryllium_atom": "Beryllium Atom",
+  "block.ultimatetech.boron_atom": "Boron Atom",
+  "block.ultimatetech.carbon_atom": "Carbon Atom"
 }
